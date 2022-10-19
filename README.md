@@ -4,7 +4,7 @@
 
 ## Demo https://allmosthumann.github.io/currency-conventer/
 
-## Description
+## Introduction
 
 ```javascript
 console.log(Give my money!);
@@ -17,4 +17,10 @@ Please follow me and see how I become Frontend dev!
 Ps: I'm strongly open for comments and suggestion!
 
 Cheers!
+
+## Description
+
+Simple currency calculator. For now it use only my own currency, but in the future I'm planning to add live currency, some diagrams and who knows what else... 
+
+
 
