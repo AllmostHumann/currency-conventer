@@ -2,5 +2,6 @@
     max-width: 1000px;
     margin: auto;
     font-family: 'Lato', sans-serif;
-    background-color: #eee
+    background-color: rgb(238, 238, 238);
+    background-image: url("../images/background.png");
 }
