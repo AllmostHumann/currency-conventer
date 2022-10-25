@@ -1,32 +1,32 @@
 {
     const currencySelected = () => {
-        const form__currencyElement = document.querySelector(".js-currency");
-        const form__selectValueElement = document.querySelector(".js-selectValue");
+        const formCurrencyElement = document.querySelector(".js-currency");
+        const formSelectValueElement = document.querySelector(".js-selectValue");
 
-        form__currencyElement.innerText =  form__selectValueElement.innerText
+        formCurrencyElement.innerText =  formSelectValueElement.innerText
 
     };
 
     const onSumbmitClick = (event) => {
         event.preventDefault();
 
-        const form__calcValueElement = document.querySelector(".js-calcValue");
-        const form__inputValueElement = document.querySelector(".js-inputValue");
-        const form__selectValueElement = document.querySelector(".js-selectValue");
+        const formCalcValueElement = document.querySelector(".js-calcValue");
+        const formInputValueElement = document.querySelector(".js-inputValue");
+        const formSelectValueElement = document.querySelector(".js-selectValue");
 
-        const select = form__selectValueElement.value;
-        const input = form__inputValueElement.value;
+        const select = formSelectValueElement.value;
+        const input = formInputValueElement.value;
         const calc = input / select;
 
-        form__calcValueElement.innerText = calc.toFixed(2), currencySelected()
+        formCalcValueElement.innerText = calc.toFixed(2), currencySelected()
     };
 
     const onResetClick = () => {
-        const form__calcValueElement = document.querySelector(".js-calcValue");
-        const form__currencyElement = document.querySelector(".js-currency");
+        const formCalcValueElement = document.querySelector(".js-calcValue");
+        const formCurrencyElement = document.querySelector(".js-currency");
 
-        form__calcValueElement.innerText = "N/A";
-        form__currencyElement.innerText = "";
+        formCalcValueElement.innerText = "N/A";
+        formCurrencyElement.innerText = "";
     }
 
     const init = () => {
