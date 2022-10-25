@@ -7,7 +7,7 @@
 ## Introduction
 
 ```javascript
-console.log(Give my money!);
+console.log(Give me my money!);
 ```
 
 This is my second project made with <b>#YouCode course.</b> In next few months I will be gradually implement new features based on what I learnt during the course. 
