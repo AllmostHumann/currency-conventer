@@ -1,25 +1,10 @@
 {
-    const currencySelected = (select) => {
+    const currencySelected = () => {
         const form__currencyElement = document.querySelector(".js-currency");
+        const form__selectValueElement = document.querySelector(".js-selectValue");
 
-        switch (select) {
+        form__currencyElement.innerText =  form__selectValueElement.innerText
 
-            case "5.00":
-                form__currencyElement.innerText = "EURO";
-                break;
-
-            case "4.90":
-                form__currencyElement.innerText = "USD";
-                break;
-
-            case "0.49":
-                form__currencyElement.innerText = "NOK";
-                break;
-
-            default:
-                form__currencyElement.innerText = "Nie wybrano";
-
-        }
     };
 
     const onSumbmitClick = (event) => {
@@ -33,7 +18,7 @@
         const input = form__inputValueElement.value;
         const calc = input / select;
 
-        form__calcValueElement.innerText = calc.toFixed(2), currencySelected(select)
+        form__calcValueElement.innerText = calc.toFixed(2), currencySelected()
     };
 
     const onResetClick = () => {
