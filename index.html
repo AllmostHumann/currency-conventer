@@ -36,24 +36,24 @@
             <p>
                 <label class="form__label">
                     Wpisz kwotę w PLN:
-                    <input class="form__inputValue js-inputValue" type="number" min="0.01" required step="0.01"
+                    <input class="form__amountValue js-amountValue" type="number" min="0.01" required step="0.01"
                         placeholder="Pole wymagane">
                 </label>
             </p>
             <p>
                 <label class="form__label">
                     Wybierz walutę:
-                    <select class="form__selectValue js-selectValue" name="currency" id="select">
-                        <option class="form__EURO" value="5.00">EURO</option>
-                        <option class="form__USD" value="4.90">USD</option>
-                        <option class="form__NOK" value="0.49">NOK</option>
+                    <select class="form__currencyValue js-currencyValue" name="currency" id="select">
+                        <option value="EUR">Euro (EUR)</option>
+                        <option value="USD">Dolar amerykański (USD)</option>
+                        <option value="NOK">Korona norweska (NOK)</option>
                     </select>
                 </label>
             </p>
             <p>
                 <label class="form__label">
                     Otrzymasz:
-                    <strong class="form__calcValue js-calcValue">N/A</strong> <span
+                    <strong class="form__resultValue js-resultValue">N/A</strong> <span
                         class="form__currency js-currency"></span>
                 </label>
             </p>

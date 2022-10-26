@@ -35,15 +35,15 @@ html {
 
 }
 
-.form__inputValue {
+.form__amountValue {
     margin: auto 10px
 }
 
-.form__selectValue {
+.form__currencyValue {
     margin: auto 40px
 }
 
-.form__calcValue {
+.form__resultValue {
     margin: auto 10px;
 }
 
