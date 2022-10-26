@@ -1,9 +1,9 @@
 {
     const getResult = (amount, currency) => {
 
-        const rateEUR = 4.9987;
-        const rateUSD = 4.7890;
-        const rateNOK = 0.4875;
+        const rateEUR = 4.7723;
+        const rateUSD = 4.7538;
+        const rateNOK = 0.4604;
 
         switch (currency) {
 
